@@ -1,0 +1,86 @@
+/* https://www.bing.com/images/search?view=detailV2&ccid=T73uN4l4&id=B626DD3EBFBAC432D30FC31E1EEDE9157A8D7B5F&thid=OIP.T73uN4l4imR9axq9ZCiO6QHaGJ&mediaurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F86%2F74%2Fdc%2F8674dcb7bd379168b0333c1d39aa2e4d.jpg&exph=1246&expw=1500&q=Web+Page+Layout+Design&simid=608029741728472593&form=IRPRST&ck=427D52AB7DE768F5FAD2D4722325100B&selectedindex=2&ajaxhist=0&ajaxserp=0&vt=0&sim=11 */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+body{
+    background-color: rgb(197, 209, 218);
+}
+.nav{
+    background-color: rgb(222, 154, 71);
+    height: 20vh;
+
+    display: flex;
+}
+.main{
+    /* background-color: rgb(229, 64, 64); */
+    width: 30vw;
+   
+}
+.main1{
+    /* background-color: yellow; */
+    width: 40vw;
+}
+.main2{
+    /* background-color: beige; */
+    width: 30vw;
+}
+.img{
+    width: 4vw;
+   padding-left: 10em;
+   padding-top: 3em;
+}
+h1{
+    
+   padding-left:8em ;
+   
+
+}
+ul{
+   padding-top: 2em;
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+}
+ul li{
+    list-style-type: none;
+}
+.imag{
+    width: 4vw;
+   margin: 1.5em;
+   margin-top: 4em;
+}
+.cointainer{
+    height: 45vh;
+    background-color: yellow;
+}
+.cointainer1{
+    
+    height: 40vh;
+    width: 70vw;
+    background-color: violet;
+  margin-top: 3em;
+  margin-left: 15em;
+
+}
+.cointainer2{
+    padding-top: 5em;
+    background-color: red;
+    width: 30vw;
+    height: 30vh;
+    font-size: 20px;
+    
+}
+.section{
+    background-color: red;
+    height: 40vh;
+    margin-top: 3em;
+    display: flex;
+}
+.sec1{
+    padding-left: 15em;
+    width: 10vw;
+    /* margin-left: 10em; */
+}

@@ -1,0 +1,48 @@
+
+html,body{
+    height:100%;
+    width: 100%;
+    font-family: 'Roboto';
+    
+
+}
+
+.left img{
+    width: 30px;
+    height: 30px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.top{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(75, 43, 43, 0.19);
+}
+.flex ul li{
+    padding:0px 12px; /* top bottom 0 pixel and left rigth 12px */
+    list-style-type: none;
+}
+.cointainer{
+    padding-left: 70px;
+    max-width: 90%;   
+    font-weight: bold;
+  
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.right flex{
+    margin-right: 0px;
+}
+.search{
+    height: 20px;
+    margin: auto;
+    width: 44vh;
+    border-radius: 8px;
+}
+.section1{
+    background-color: rgb(249, 244, 244);
+    padding: 0 10vh;
+    overflow: hidden;   
+}
